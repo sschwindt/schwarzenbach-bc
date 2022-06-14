@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>20160413-20161012_moorings-sb_samplingStations.kml</name>
+	<Style id="sh_triangle">
+		<IconStyle>
+			<scale>0.96</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_marina">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_marina</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_marina</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_marina">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_marina">
+		<IconStyle>
+			<scale>0.96</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_triangle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_triangle">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>20160413-20161012_moorings-sb_samplingStations</name>
+		<visibility>0</visibility>
+		<description>Locations of the moorings in Schwarzenbach during 2016</description>
+		<Placemark>
+			<name>anchor</name>
+			<visibility>0</visibility>
+			<description>Location of the anchor that fixes the chain to the ground</description>
+			<styleUrl>#msn_marina</styleUrl>
+			<Point>
+				<coordinates>8.327036766174452,48.65617457240478,666</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>m1</name>
+			<visibility>0</visibility>
+			<description>Location of the ADCP</description>
+			<styleUrl>#msn_triangle</styleUrl>
+			<Point>
+				<coordinates>8.326904820607853,48.65588592195946,663</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>m2</name>
+			<visibility>0</visibility>
+			<description>Location of the chain mooring</description>
+			<styleUrl>#msn_triangle</styleUrl>
+			<Point>
+				<coordinates>8.327103577576811,48.65625592882668,665</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
